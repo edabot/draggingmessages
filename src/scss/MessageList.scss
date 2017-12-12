@@ -1,0 +1,21 @@
+.message-list {
+  width: 30rem;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 1rem;
+
+  .message {
+    background-color: lightblue;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+
+}
